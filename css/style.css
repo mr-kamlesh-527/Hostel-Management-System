@@ -1,0 +1,64 @@
+/* ************s pan tag css start************* */
+
+.text-lg span {
+    color: #e67e22;
+}
+
+.flex span {
+    color: #e67e22;
+}
+
+
+
+
+
+/* ----------------images media query start------------------ */
+
+.media_q {
+    height: 600px;
+}
+
+.back_image {
+    background-image: url(images/ac_rooms1.jpg);
+    height: 225px;
+    color: white;
+}
+
+.back_image1 {
+    background-image: url(images/common_room1.jpg);
+    height: 225px;
+    color: white;
+}
+
+.back_image2 {
+    background-image: url(images/seperate-block1.jpg);
+    height: 225px;
+    color: white;
+}
+
+.back_image3 {
+    background-image: url(images/security.jpg);
+    height: 225px;
+    color: white;
+}
+
+.back_image4 {
+    background-image: url(images/medical.jpg);
+    height: 225px;
+    color: white;
+}
+
+.back_image5 {
+    background-image: url(images/healthy-food.jpg);
+    height: 225px;
+    color: white;
+}
+
+@media screen and (max-width:720px) {
+    .media_q {
+        height: 251px;
+    }
+}
+
+
+/* ----------------images media query end------------------ */
